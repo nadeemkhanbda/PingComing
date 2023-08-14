@@ -146,7 +146,7 @@ footer{
         margin-top: 40px;
     }
     input[type="email"]{
-        width: 95%;
+        width: 100%;
     }
     #output{
         width: 100%;
