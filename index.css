@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Edu+SA+Beginner&family=Heebo&family=Lexend+Deca&family=Libre+Franklin:wght@300;600;700&family=Lugrasimo&family=Orbitron:wght@500&family=Outfit:wght@300&family=Poppins:wght@700&family=Quantico:wght@700&family=Roboto:wght@700&family=VT323&display=swap');
+
+:root{
+    --para-color :hsl(0, 0%, 59%);
+    --para2-color: 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: auto;
+}
+svg{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+h1{
+    color: var(--para-color);
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+#soon{
+    color: hsl(209, 33%, 12%);
+    font-weight: 700;
+}
+#para{
+    color: black;
+    margin-bottom: 25px;
+}
+#validation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    gap: 10px;
+   }
+  #inp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    
+
+  }
+ i{
+    width: 100%;
+    /* margin-left: 20px; */
+    font-size: 0.6rem;
+    margin-top: 3px;
+    color: red;
+ }
+::-webkit-input-placeholder {
+    color: lightgray;
+}
+input[type="email"]{
+    padding: 10px 80px 10px 20px;
+    border-radius: 30px;
+    border: 1px solid lightblue ;
+}
+#btn{
+    padding: 10px 40px;
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px hsl(223, 88%, 81%);
+    
+}
+
+#image{
+    width: 50%;
+    margin-bottom: 45px;
+}
+#social{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+#logo{
+    width: 25px;
+}
+#copy{
+    color: var(--para-color);
+    font-size: 0.6rem;
+    margin-bottom: 20px;
+}
+footer{
+    margin-bottom: 10px;
+}
+#logo:hover{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:hsl(223, 88%, 81%);
+}
+#btn:hover{
+    background-color:hsl(239, 80%, 60%) ;
+    cursor: pointer;
+}
+
+@media screen and (max-width:400px) {
+    body{
+        text-align: center;
+    }
+    #svg{
+        margin-top: 50px;
+        margin-bottom: 70px;
+        width: 100%;
+    }
+    #svg svg{
+        width: 60%;
+    }
+    h1{
+        margin-bottom: 25px;
+    }
+    #validation {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    
+    #para{
+        margin-bottom: 40px;
+    }
+    #validation button {
+        margin-top: 10px;
+        width: 70%;
+        padding-block: 12px;
+    }
+    #image{
+        width: 80%;
+    }
+    #logo{
+        margin-top: 40px;
+    }
+    input[type="email"]{
+        width: 95%;
+    }
+    #output{
+        width: 100%;
+        text-align: center;
+    }
+    
+}
