@@ -47,7 +47,8 @@ h1{
   #inp{
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
+    margin-bottom: 5px;
     
 
   }
