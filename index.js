@@ -34,3 +34,6 @@ let email = document.getElementById("email");
 }
 
 btn.addEventListener('click', mailValidation);
+email.addEventListener('focus', () => {
+    output.innerHTML = "";
+})
